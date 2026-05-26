@@ -49,13 +49,13 @@ console.log(1+"2");
 console.log("1"+2);
 console.log("1"+2+2);
 console.log(1+2+"2");
-console.log(+true);
-console.log(+"");
+console.log(+true); // ouput 1 ayega
+console.log(+"");  // output 0 ayega no sense
 let num1,num2,num3
 num1=num2=num3=2+2
 let gameCounter=100
-//gameCounter++
-++gameCounter
+//gameCounter++ //output 101
+++gameCounter //output 101
 console.log(gameCounter);
 
 
