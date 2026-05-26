@@ -41,7 +41,7 @@ null-->object
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-//stack(in primitive use // variable copy milta hai) ,heap(int non primitive yha pr reference milta hai )
+//stack(in primitive use // variable copy milta hai) ,heap(int non primitive jha pr reference milta hai )
 let myName="moin"
 let anothername=myName
 anothername="Boss"
@@ -56,4 +56,4 @@ let user_1={
 let user_2=user_1
 user_2.email="moin123@.com"
 console.log(user_1.email);
-console.log(user_2.email);
+console.log(user_2.email); // both give same output moin123@.com because of refrence of user1 and user2 is same
