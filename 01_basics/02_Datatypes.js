@@ -1,5 +1,5 @@
 "use strict";// treat all JS code as newer version 
-//alert(3+3) // we are using not browser thats why error
+//alert(3+3) // we are using nodejs,not browser thats why error
 // console.log(3+3); 
 // console.log("moin"); // code readability important 
 let name="moin" //string
@@ -13,8 +13,9 @@ let isLOGGED=false //bool
 //null=stamd alone value 
 //undefined =
 //symbol=unique ke liye to eska use 
-//object 
+//object in future seekhenge 
 console.log(typeof null);
 console.log(typeof 123);
 console.log(typeof false);
 console.log(typeof "MOIn");
+console.log(typeof undefined);
