@@ -29,7 +29,11 @@
 
 // console.log(typeof myfunction)
 
-
+/*
+type of these
+undefined-->undefined
+null-->object
+*/
 
 
 
