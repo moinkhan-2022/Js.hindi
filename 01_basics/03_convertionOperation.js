@@ -3,14 +3,17 @@
 // // let score=null
 // let score=true
 // //console.log(typeof score);
-// let valueInNumber=Number(score)
+// let valueInNumber=Number(score) --- score number mai convert 
 // console.log(typeof valueInNumber);
+console.log(valueInNumber);   //output naN ayega not a number
 
 
-// "33"=33
-// "33abc"=NaN
-// true=1;false=0
-// let isLoggedIn=1
+// "33"=33 ho jaega convert
+// "33abc"=NaN ayega
+// true=1;false=0 true 1 me convert if number me krenge or false 0 mai 
+// let isLoggedIn=1 -- output true
+// let isLoggedIn="" output false
+// let isLoggedIn="Moin"--- output true
 // let booleanIsLoggedIn=Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
 let isLoggedIn=""
