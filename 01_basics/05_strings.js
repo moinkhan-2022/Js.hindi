@@ -4,7 +4,7 @@ console.log(name+repocnt+"khan");
 console.log(`hello my name is ${name} and my repocnt is ${repocnt} `);
 // string declare
 const gameName=new String("moin")
-console.log(gameName[0]);
+console.log(gameName[0]); 
 console.log(gameName.__proto__);   //object  mil jaega
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
@@ -25,11 +25,12 @@ console.log(String1.trim()); // trim start and end dono hota hai
 const url="https://moin.com"
 console.log(url.replace('moin', 'khan')); //change string by another one 
 
-console.log(url.includes('moin'))
+console.log(url.includes('moin')) //hai ke nhi esme truw false me  answer dega 
 console.log(url.includes('khan'))
 console.log(url.includes('.'))
 console.log(url.includes('don'))
 console.log(gameName.split('-'))
+
 
 
 
