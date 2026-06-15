@@ -29,6 +29,6 @@ console.log(arr4);  // string me elelemnt
 console.log("A",arr3);
 const my=arr3.slice(1,3)
 
-console.log(my);
+console.log(my); 
 console.log("B",my);
 
